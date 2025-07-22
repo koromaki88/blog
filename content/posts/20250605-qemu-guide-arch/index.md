@@ -29,7 +29,7 @@ $ newgrp libvirt
 ```
 
 With this, you are ready to use QEMU! There are a few things you want to ensure are properly configured to everything to work:
-- QEMU/KVM > Details > Virtual Networks - Ensure `virbr0` is Active (enable it if it isn't).jj
+- QEMU/KVM > Details > Virtual Networks - Ensure `virbr0` is Active (enable it if it isn't).
 - If you have separate root & home partitions, it is recommended to add a new pool and set any directory in home for your VM disks to avoid using up root disk space. Go to QEMU/KVM > Details > Storage, click 'Add Pool' at the bottom left corner and change 'Target path' as desired.
 - As best practice suggested by the Arch wiki, ensure external directories outside the default pool are owned by `libvirt-qemu` group:
 ```sh
