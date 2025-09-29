@@ -5,9 +5,9 @@
 Clone repository with PaperMod submodule
 ```sh
 # https
-git clone --recursive https://github.com/koromaki88/koromaki88-pages.git koromaki88-pages
+git clone --recursive https://github.com/koromaki88/blog.git
 # ssh
-git clone --recursive git@github.com:koromaki88/koromaki88-pages.git koromaki88-pages
+git clone --recursive git@github.com:koromaki88/blog.git
 ```
 Run server locally (add `-D` to include drafts):
 ```sh
