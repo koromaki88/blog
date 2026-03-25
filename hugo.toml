@@ -4,6 +4,7 @@ title = "koromaki88"
 theme = 'PaperMod'
 
 [params]
+author = "koromaki88"
 env = 'production'
 defaultTheme = 'dark'
 disableThemeToggle = true
