@@ -39,7 +39,7 @@ Reverse search the image on `images.google.com`, the first result is the flag: `
 >
 > Your task is to uncover the sender of that plea.
 >
-> Clues hide in old public archives — look for a tabular trail documenting what was once called Operation Freedom, catalogued in a comma-separated vault of** 1,996 pages** worth of equipment.
+> Clues hide in old public archives — look for a tabular trail documenting what was once called Operation Freedom, catalogued in a comma-separated vault of **1,996 pages** worth of equipment.
 > 
 > Some say the sands between two nations hold the real context — where east met west, and war turned into a spreadsheet.
 >
