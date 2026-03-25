@@ -1,9 +1,10 @@
 pre,
-code {
+.post-content code {
     font-family: 'JetBrains Mono', monospace;
-    font-size: 1.15em;
+    font-size: 0.9em;
 }
 
 body {
     font-family: 'JetBrains Mono', monospace;
+    font-size: 0.85em;
 }
