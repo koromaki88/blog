@@ -1,4 +1,4 @@
-# koromaki88's Personal Professional Blog
+# koromaki88's Personal Professional (?) Blog
 [Check it out!](https://koromaki88-blog.pages.dev/) Website for documenting my personal thoughts, learning, write-ups related to software, CTFs and IT in general. Think of it as a digital journal.
 
 ## Development
