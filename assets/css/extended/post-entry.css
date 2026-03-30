@@ -1,0 +1,71 @@
+/* this is held together with glue and duct tapes
+* any css expert out there want to help improve this is greatly appreciated
+**/
+.post-entry {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-areas:
+        "cover header"
+        "cover content"
+        "cover footer";
+    column-gap: var(--gap);
+    row-gap: 0px;
+    align-items: start;
+}
+
+.post-entry .entry-cover {
+    grid-area: cover;
+    margin-bottom: 0;
+}
+
+.post-entry .entry-cover img {
+    width: 100%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    border-radius: var(--radius);
+}
+
+.post-entry .entry-header {
+    grid-area: header;
+    overflow: hidden;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.post-entry .entry-header h2 {
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+.post-entry .entry-content {
+    grid-area: content;
+    display: flex;
+    flex-direction: column;
+}
+
+.post-entry .entry-content p {
+    margin: 0;
+}
+
+.post-entry .entry-footer {
+    grid-area: footer;
+}
+
+.tag-entry .entry-cover {
+    display: none;
+}
+
+@media (max-width: 640px) {
+    .post-entry {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "cover"
+            "header"
+            "content"
+            "footer";
+    }
+
+    .post-entry .entry-cover {
+        margin-bottom: 16px;
+    }
+}
