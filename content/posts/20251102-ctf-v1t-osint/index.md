@@ -4,7 +4,9 @@ date: 2025-11-02T22:20:00+07:00
 draft: false
 tags: ["CTF", "OSINT", "V1t", "Geolocation"]
 categories: ["Writeups"]
-summary: "Full guide on all OSINT challenges in V1t CTF 2025."
+summary: "Full write-up on all OSINT challenges in V1t CTF 2025."
+cover:
+    image: "cover.png"
 ---
 **Category**: OSINT\
 **Note**: N/A

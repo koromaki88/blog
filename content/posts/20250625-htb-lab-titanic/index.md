@@ -5,9 +5,9 @@ draft: false
 tags: ["Linux", "HTB", "HTB Machines", "Web", "Hashcat", "Local File Inclusion", "ImageMagick"]
 categories: ["Writeups"]
 summary: "How I solved Hack The Box's vulnerable machine \"Titanic\" and comparison to the intended solutions."
+cover:
+    image: "cover.png"
 ---
-[![htb-titanic-1.png](htb-titanic-1.png#center)](https://app.hackthebox.com/machines/648)
-
 # Reconnaissance
 
 Start the machine, the IP given is `10.10.11.55`. We begin by performing an nmap scan on it, revealing 2 open ports:

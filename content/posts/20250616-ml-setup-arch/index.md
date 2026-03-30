@@ -5,6 +5,8 @@ draft: false
 tags: ["Arch", "Linux", "Miniconda", "Jupyter", "VSCode", "Python"]
 categories: ["Guides"]
 summary: "Personal setup notes for studying machine learning on Arch Linux."
+cover:
+    image: "cover.png"
 ---
 I decided to dedicate a blog post for this, mostly because my preferred setup process on Arch was a lot more confusing that it needed to be. This is just what I find to give me the most control and flexibility, but feel free to argue against it. Otherwise, if you found this helpful, then I'm glad to have helped :D
 

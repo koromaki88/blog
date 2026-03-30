@@ -5,6 +5,8 @@ draft: false
 tags: ["CTF", "OSINT", "TexSAW"]
 categories: ["Writeups"]
 summary: "My full guide & interpretation of 'tanpin' OSINT challenge on TexSAW 2025."
+cover:
+    image: "cover.png"
 ---
 **Category**: OSINT\
 **Solves**: ~20/553\
