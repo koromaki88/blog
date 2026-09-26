@@ -1,5 +1,5 @@
 baseURL = 'https://koromaki88-blog.pages.dev/'
-languageCode = 'en-us'
+locale = 'en-us'
 title = "koromaki88"
 theme = 'PaperMod'
 
