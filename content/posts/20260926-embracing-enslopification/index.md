@@ -25,3 +25,8 @@ Fortunately, I am a paranoid person. The last thing I want is for an AI to accid
 The current standard for safely isolating software is using virtual machines. I use QEMU on my machine since they are lighter and have better compatibility with my linux host machines. I have previously written [a post on how to set it up](../20250605-qemu-guide-arch/) specifically for Arch Linux, though it should still work for most distributions. For alternatives:
 - VirtualBox works fine, but from my experience they are slower and consumes more resources - this is especially important since I wanted to keep it lightweight.
 - VMware - I do not have an opinion on since I have not tried it.
+
+By default, a Linux VM generally has sufficient isolation. NAT network is a possible attack vector, but most of my tasks involving AI agents rarely involve directly interacting with the host or local network.
+
+# Operating System
+For the guest OS, I picked NixOS. Previously, I have experimented with Arch/Debian, but there are two caveats:
